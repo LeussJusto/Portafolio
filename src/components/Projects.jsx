@@ -14,7 +14,7 @@ function Projects() {
       name: "Sistema de Gestión de Tareas en Campo",
       subtitle: "Sistema que gestiona tareas en vivo con asignacion y reporte",
       description: "Multiplataforma escritorio y movil para una gestion en campo y reporte detallados, asignando tareas y eventos en tiempo real con notificaciones y seguimiento de progreso.",
-      technologies: ["React", "Node.js", "JavaScript", "mysql", "Android Studio", "kotlin"],
+      technologies: ["React", "Node.js", "TypeScript", "mysql", "Android Studio", "kotlin"],
       link: "https://www.canva.com/design/DAGt9wGVnh8/ztt8ivSv4xz1MkJrwKkAgA/watch?utm_content=DAGt9wGVnh8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5c9b2f3ea2",
       repos: {
         back: "https://github.com/LeussJusto/Comunidad.git",
@@ -39,7 +39,7 @@ function Projects() {
       name: "NodusBuild",
       subtitle: "Plataforma Colaborativo para subir archivos y ver los progresos de los informes a tiempo real",
       description: "Plataforma para subir evidencia de avences de proyectos, con seguimiento en tiempo real y colaboración entre equipos, permitiendo una gestión eficiente de tareas y recursos.",
-      technologies: ["React", "Node.js", "JavaScript", "MongoDB", "Redis"],
+      technologies: ["React", "Node.js", "TypeScript", "MongoDB", "Redis"],
       link: "https://www.canva.com/design/DAHC3ELV918/baSrlR0vVOOmKYZRrvKl0A/view?utm_content=DAHC3ELV918&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7f7f77f1f5",
       repos: {
         front: "https://github.com/Egolden20/FrontNodusBuild.git",
@@ -79,7 +79,7 @@ function Projects() {
       name: "Viva-colors",
       subtitle: "Backend de un Dashboard de una ferreteria",
       description: "planificacion de Diseño Backend para gestion de productos, clientes y ventas de una ferreteria usando graphql con nodejs y mongodb",
-      technologies: ["Node.js", "JavaScript", "GraphQL", "MongoDB"],
+      technologies: ["Node.js", "TypeScript", "GraphQL", "MongoDB"],
       repo: "https://github.com/LeussJusto/VivaColorsBack.git",
       images: [
         "/images/projects/viva-estructura.png",
