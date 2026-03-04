@@ -20,7 +20,7 @@ function Hero() {
       <div className="hero-content">
         <div className="profile-image">
           <img 
-            src="/images/FotoLeo.jpeg" 
+            src={`${import.meta.env.BASE_URL}images/FotoLeo.jpeg`}
             alt="Perfil" 
           />
         </div>

@@ -2,6 +2,9 @@ import { useState } from 'react'
 import './Projects.css'
 
 function Projects() {
+  // Helper para construir rutas de imágenes con BASE_URL
+  const getImageUrl = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
+
   const projects = [
 
 
@@ -167,7 +170,7 @@ function Projects() {
             >
               <div className="project-image-container contain-size">
                 <img 
-                  src={project.images[currentImageIndex[project.id]]} 
+                  src={getImageUrl(project.images[currentImageIndex[project.id]])}
                   alt={`${project.name} - Imagen ${currentImageIndex[project.id] + 1}`}
                   className="project-image"
                 />
